@@ -33,7 +33,12 @@ Once you have Anaconda installed, first double check you are in your Python 3 en
 run the following commands at the terminal prompt to get OpenCV:
 
 `> pip install pillow`  
+
+I met problems in updating the pip in the beginning. Later I solved it with:
+sudo pip3 install -U pip.
+
 `> conda install -c https://conda.anaconda.org/menpo opencv3`
+
 
 then to test if OpenCV is installed correctly:
 
